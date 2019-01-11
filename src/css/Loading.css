@@ -1,0 +1,20 @@
+.LoadingMaskLayer {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  text-align: left;
+  background-color: transparent;
+  z-index: 10;
+}
+.LoadingMaskLayer .loading {
+  position: absolute;
+  margin: auto;
+  width: 32px;
+  height: 32px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 99999;
+  text-align: center;
+}

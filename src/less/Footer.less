@@ -1,0 +1,152 @@
+.FooterContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    // min-width: 600px;
+    padding: 50px 0 70px;
+    align-items: center;
+    background: linear-gradient(to bottom, #0a1f3d, #084468);
+}  
+
+@media screen and (min-width:768px) {
+    .FooterContent{
+        margin: 0 18%;
+        padding: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+}
+
+@media screen and (max-width:768px) {
+    .FooterContent{
+        margin: 0 18%;
+        padding: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+}
+
+.FooterLeftBox{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+    width: 300px;
+    margin: 0;
+}
+
+.FooterSubscribe{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 3px 0;
+}
+.FooterInputBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.FooterInput{
+    height: 26px;
+    width:160px;
+    border: 1px solid;
+    border-color: #51b6e9;
+    font-size: 14px;
+    padding:  0 10px;
+    margin: 0
+}
+.FooterInputSubmit{
+    height: 26px; 
+    width: 100px;
+    margin:0 0 0 10px;
+    font-size: 12px;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: #084468;
+    background: repeating-linear-gradient(135deg, #6bfaff, #00f3f6, #00deff, #00cafd, #00b9fd, #0089d7, #0065d7, #0050d4, #003acc, #0027ce, #003acc, #0050d4, #0065d7, #0089d7, #00b9fd, #00cafd, #00deff, #00f3f6, #6bfaff, #00f3f6, #00deff, #00cafd, #00b9fd, #0089d7, #0065d7, #0050d4, #003acc, #0027ce);
+    background-size: 1000% 1000%;
+    animation: 'myslide' 8s infinite linear both;
+    -moz-animation: 'myslide' 8s infinite linear both;
+    -webkit-animation: 'myslide' 8s infinite linear both;
+    -o-animation: 'myslide' 8s infinite linear both;
+    outline: none;
+}
+.FooterInputSubmit:hover{
+    cursor: pointer;
+}
+
+.FooterRightBox{
+    position: relative;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-end;
+    width: 280px;
+}
+
+@media screen and (max-width:768px) {
+    .FooterRightBox{
+        position: relative;
+        left: -8vw;
+        top: 20px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: flex-end;
+        width: 280px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .FooterRightBox{
+        position: relative;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: flex-end;
+        width: 280px;
+    }
+}
+
+
+.FooterLinkIconBox{
+    flex-direction: row;
+    align-items: center;
+    width: 280px;
+}
+.MarginTop10{
+    margin-top: 10px
+}
+.FooterWX{
+    margin: 0 0 0 15px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.WXQrCodeIcon{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    z-index: 100;
+    right: 200px;
+    top: 35px;
+    
+}
+.ImgA{
+    margin: 0 0 0 15px;
+    width: 30px;
+}
+.ImgAIcon{
+    width: 30px;
+}

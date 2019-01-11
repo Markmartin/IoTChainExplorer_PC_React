@@ -1,0 +1,84 @@
+.TransactionListColumn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  background-color: #ebf8ff;
+  border-bottom: 0.5px solid #ededed;
+}
+.TransactionListColumn .ListColumnFont {
+  font-size: 13px;
+  color: #727272;
+  line-height: 231%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.TransactionListColumn .ColumnTxHash {
+  width: 15%;
+  text-align: left;
+}
+.TransactionListColumn .ColumnHeight {
+  width: 8.5%;
+}
+.TransactionListColumn .ColumnAge {
+  text-align: left;
+  width: 20%;
+}
+.TransactionListColumn .ColumnFrom {
+  text-align: left;
+  width: 15%;
+}
+.TransactionListColumn .ColumnTo {
+  text-align: left;
+  width: 15%;
+}
+.TransactionListColumn .ColumnValue {
+  width: 8.5%;
+}
+.TransactionListColumn .ColumnTxfee {
+  width: 8%;
+}
+.TransactionCell {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  border-bottom: 0.5px solid #ededed;
+}
+.TransactionCell .ListCellFont {
+  font-size: 13px;
+  color: #afafaf;
+  line-height: 231%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.TransactionCell .CellTxHash {
+  width: 15%;
+  color: #01a1e6;
+  cursor: pointer;
+}
+.TransactionCell .CellHeight {
+  width: 8.5%;
+}
+.TransactionCell .CellAge {
+  text-align: left;
+  width: 20%;
+}
+.TransactionCell .CellFrom {
+  text-align: left;
+  width: 15%;
+  color: #01a1e6;
+  cursor: pointer;
+}
+.TransactionCell .CellTo {
+  text-align: left;
+  width: 15%;
+  color: #01a1e6;
+  cursor: pointer;
+}
+.TransactionCell .CellValue {
+  width: 8.5%;
+}
+.TransactionCell .CellTxfee {
+  width: 8%;
+}

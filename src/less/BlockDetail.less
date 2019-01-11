@@ -1,0 +1,40 @@
+@import './color.less';
+.BlockDetail {
+    position: relative;
+    width: 100%;
+    .BlockDetailContent {
+        position: relative;
+        width: 100%;
+        height: 620px;
+        background-color: @BackColor;
+        .BlockDetailContainer {
+            position: relative;
+            top: 30px;
+            width: 95%;
+            height: 520px;
+            max-width: 1080px;
+            margin: 0 auto; 
+            background-color: white;
+            box-shadow: 0 0 5px 5px @ShadowColor;
+            .Block {
+                position: relative;
+                top: 30px;
+                width: 95%;
+                margin: 0 auto; 
+                height: 520px;
+                // background-color: aquamarine;
+                .BlockTitle {
+                    position: relative;
+                    text-indent: 10px;
+                    width: 100%;
+                    height: 45px;
+                    line-height: 200%;
+                    font-size: 18px;
+                    text-align: left;
+                    color: @ThemeColor;
+                    border-bottom: 0.5px solid @LineColor;
+                }
+            }
+        }
+    }
+}

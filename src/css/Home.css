@@ -1,0 +1,132 @@
+.HomeView {
+  display: block;
+  position: relative;
+  width: 100vw;
+  background-color: #f6f6f6;
+}
+.HomeView .HomeHeader {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: url('../asset/home_header_bg.png') no-repeat;
+  background-size: 100% 100%;
+}
+.HomeView .HomeHeader .HomeHeaderLink {
+  display: flex;
+  position: relative;
+  width: 80%;
+  height: 50px;
+  top: 20px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.HomeView .HomeHeader .HomeHeaderLink .logo {
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  height: 45px;
+}
+.HomeView .HomeHeader .HomeHeaderLink .OfficialWeb {
+  display: inline-block;
+  width: 100px;
+  height: 2rem;
+  line-height: 2rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.HomeView .HomeHeader .HomeHeaderLink .OfficialWeb:hover {
+  color: #01a1e6;
+  border: 1px solid #01a1e6;
+  border-radius: 5px;
+}
+.HomeView .HomeHeader .HomeTitle {
+  display: block;
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 38px;
+  color: white;
+}
+.HomeView .HomeHeader .SearchContainer {
+  position: relative;
+  top: 80px;
+  width: 100vw;
+  height: 40px;
+}
+.HomeView .HomeContent {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.HomeView .HomeContent .BlockContainer {
+  position: relative;
+  top: 20px;
+  width: 95%;
+  max-width: 1080px;
+  height: 270px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 5px #f0f0f0;
+}
+.HomeView .HomeContent .BlockContainer .BlockList {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+.HomeView .HomeContent .TransactionContainer {
+  position: relative;
+  top: 50px;
+  width: 95%;
+  max-width: 1080px;
+  height: 270px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 5px #f0f0f0;
+}
+.HomeView .HomeContent .TransactionContainer .transactionList {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+.HomeView .HomeContent .ListHeader {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  top: 20px;
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+}
+.HomeView .HomeContent .ListHeader .ListTitle {
+  width: 10%;
+  text-align: left;
+  height: 100%;
+  line-height: 167%;
+  font-size: 18px;
+  color: #01a1e6;
+}
+.HomeView .HomeContent .ListHeader .ShowAll {
+  background-color: #01a1e6;
+  cursor: pointer;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: none;
+}
+.HomeView .HomeContent .ListContent {
+  position: relative;
+  width: 100%;
+  top: 25px;
+  height: 210px;
+  margin: 0 auto;
+}

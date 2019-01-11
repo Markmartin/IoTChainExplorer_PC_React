@@ -1,0 +1,120 @@
+.HolderTransactionListColumn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  background-color: #ebf8ff;
+  border-bottom: 0.5px solid #ededed;
+}
+.HolderTransactionListColumn .ListColumnFont {
+  font-size: 13px;
+  color: #727272;
+  line-height: 231%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.HolderTransactionListColumn .ColumnTxHash {
+  text-align: left;
+  width: 16%;
+}
+.HolderTransactionListColumn .ColumnHeight {
+  width: 8.5%;
+}
+.HolderTransactionListColumn .ColumnAge {
+  text-align: left;
+  width: 17%;
+}
+.HolderTransactionListColumn .ColumnFrom {
+  text-align: left;
+  width: 16%;
+}
+.HolderTransactionListColumn .ColumnFlow {
+  width: 35px;
+}
+.HolderTransactionListColumn .ColumnTo {
+  text-align: left;
+  width: 16%;
+}
+.HolderTransactionListColumn .ColumnValue {
+  width: 8.5%;
+}
+.HolderTransactionListColumn .ColumnTxfee {
+  width: 8%;
+}
+.HolderTransactionCell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  border-bottom: 0.5px solid #ededed;
+}
+.HolderTransactionCell .ListCellFont {
+  font-size: 13px;
+  color: #afafaf;
+  line-height: 231%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.HolderTransactionCell .CellTxHash {
+  width: 16%;
+  height: 100%;
+}
+.HolderTransactionCell .CellHeight {
+  width: 8.5%;
+  height: 100%;
+}
+.HolderTransactionCell .CellAge {
+  text-align: left;
+  width: 17%;
+  height: 100%;
+}
+.HolderTransactionCell .disableClick {
+  cursor: default;
+}
+.HolderTransactionCell .enableClick {
+  color: #01a1e6;
+  cursor: pointer;
+}
+.HolderTransactionCell .CellFrom {
+  text-align: left;
+  width: 16%;
+  height: 100%;
+  line-height: 100%;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+.HolderTransactionCell .CellFlow {
+  width: 35px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: white;
+  font-size: 10px;
+}
+.HolderTransactionCell .CellIn {
+  background-color: #7acd5c;
+}
+.HolderTransactionCell .CellOut {
+  background-color: #ed1d2e;
+}
+.HolderTransactionCell .CellTo {
+  text-align: left;
+  width: 16%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+.HolderTransactionCell .CellValue {
+  width: 8.5%;
+  height: 100%;
+}
+.HolderTransactionCell .CellTxfee {
+  width: 8%;
+  height: 100%;
+}

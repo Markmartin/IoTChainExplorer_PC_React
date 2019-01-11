@@ -1,0 +1,74 @@
+@import './color.less';
+.BlockListColumn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    background-color: @HeaderColumnColor;
+    border-bottom: 0.5px solid @LineColor;
+    .ListColumnFont {
+        font-size: 13px;
+        color: @ColumnColor;
+        line-height: 231%;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+    .ColumnHeight {
+        width: 8.5%;
+    }
+    .ColumnAge {
+       text-align: left;
+       width: 20%;
+    }
+    .ColumnTxn {
+        width: 5%;
+    }
+    .ColumnBlockHash {
+        width: 35%;
+    }
+    .ColumnGasUsed {
+        width: 12%;
+    }
+}
+
+.BlockCell {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    border-bottom: 0.5px solid @LineColor;
+    .ListCellFont {
+        font-size: 13px;
+        
+        line-height: 231%;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+
+    .disableClick {
+        color: @CellColor;
+        cursor: default;
+    }
+
+    .enableClick {
+        color: @ThemeColor;
+        cursor: pointer;
+    }
+    
+    .CellHeight {
+        width: 8.5%;
+    }
+    .CellAge {
+       text-align: left;
+       width: 20%;
+    }
+    .CellTxn {
+        width: 5%;
+    }
+    .CellBlockHash {
+        width: 35%;
+    }
+    .CellGasUsed {
+        width: 12%;
+    }
+}

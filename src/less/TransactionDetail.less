@@ -1,0 +1,107 @@
+@import './color.less';
+.TransactionDetail {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: @BackColor;
+    .TransactionContent {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        background-color: @BackColor;
+        .TransactionContainer {
+            position: relative;
+            top: 30px;
+            width: 95%;
+            height: 550px;
+            max-width: 1080px;
+            margin: 0 auto; 
+            background-color: white;
+            box-shadow: 0 0 5px 5px @ShadowColor;
+            .Transaction {
+                position: relative;
+                top: 30px;
+                width: 95%;
+                margin: 0 auto; 
+                height: 570px;
+                .TransactionTitle {
+                    position: relative;
+                    // bottom: 10px;
+                    // left: 1.5%;
+                    text-indent: 10px;
+                    width: 100%;
+                    height: 45px;
+                    line-height: 200%;
+                    font-size: 18px;
+                    text-align: left;
+                    color: @ThemeColor;
+                    border-bottom: 0.5px solid @LineColor;
+                }
+                // .DetailCell {
+                //     display: flex;
+                //     position: relative;
+                //     align-items:center;
+                //     width: 100%;
+                //     height: 33px;
+                //     border-bottom: 0.5px solid @LineColor;
+                //     .disableClick {
+                //         color: @CellColor;
+                //         text-align: left;
+                //         text-indent: 10px;
+                //         text-overflow:ellipsis;
+                //         overflow: hidden;
+                //     }
+                //     .enableClick {
+                //         color: @ThemeColor;
+                //         text-align: left;
+                //         text-indent: 10px;
+                //         text-overflow:ellipsis;
+                //         overflow: hidden;
+                //         cursor: pointer;
+                //     }
+                //     .DetailCellTag {
+                //         background-color: @HeaderColumnColor;
+                //         width: 13%;
+                //         // min-width: 60px;
+                //         height: 2rem;
+                //         line-height: 2rem;
+                //     }
+                //     .DetailValue {
+                //         width: 87%;
+                //         height: 2rem;
+                //         line-height: 2rem;
+                //     }
+                // }
+                .InputData {
+                    position: relative;
+                    display: flex;
+                    align-items:center;
+                    top: 30px;
+                    width: 100%;
+                    height: 25px;
+                    .logo {
+                        display: inline-block;
+                        margin-left: 10px;
+                        width: 13px;
+                        height: 15px;
+                    }
+                    .InputTitle {
+                        color:@ThemeColor;
+                        margin-left: 10px;
+                        line-height: 25px;
+                        font-size: 16px;
+                    }
+                }
+                .DataArea {
+                    position: relative;
+                    top: 50px;
+                    width: 100%;
+                    height: 80px;
+                    resize:none;
+                    cursor: default;
+                    border: 1px solid @ThemeColor;
+                }
+            }
+        }
+    }
+}

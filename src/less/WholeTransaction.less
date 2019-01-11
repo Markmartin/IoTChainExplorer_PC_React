@@ -1,0 +1,44 @@
+@import './color.less';
+.WholeTransaction {
+    position: relative;
+    width: 100%;
+    background-color: @BackColor;
+    .WholeTransactionContent {
+        position: relative;
+        top: 30px;
+        width: 100%;
+        height: 700px;
+        // background-color: red;
+        .WholeTransactionContainer {
+            position: relative;
+            width: 95%;
+            height: 650px;
+            max-width: 1080px;
+            margin: 0 auto; 
+            background-color: white;
+            .WholeTransactionList {
+                position: relative;
+                top: 50px;
+                width: 95%;
+                margin: 0 auto; 
+                // background-color: darkgreen;
+                .WholeTransactionTitle {
+                    position: relative;
+                    bottom: 10px;
+                    width: 100%;
+                    height: 30px;
+                    line-height: 167%;
+                    font-size: 18px;
+                    text-align: left;
+                    color: @ThemeColor;
+                }
+            }
+            .PaginationContainer {
+                position: relative;
+                top: 80px;
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,128 @@
+@import './color.less';
+.HolderTransactionListColumn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    background-color: @HeaderColumnColor;
+    border-bottom: 0.5px solid @LineColor;
+    .ListColumnFont {
+        font-size: 13px;
+        color: @ColumnColor;
+        line-height: 231%;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+    .ColumnTxHash {
+        text-align: left;
+        width: 16%;
+    }
+    .ColumnHeight {
+        width: 8.5%;
+    }
+    .ColumnAge {
+        text-align: left;
+        width: 17%;
+    }
+    .ColumnFrom {
+        text-align: left;
+        width: 16%;
+    }
+    .ColumnFlow {
+        width: 35px;
+    }
+    .ColumnTo {
+        text-align: left;
+        width: 16%;
+    }
+    .ColumnValue {
+        width: 8.5%;
+    }
+    .ColumnTxfee {
+        width: 8%;
+    }
+}
+
+.HolderTransactionCell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border-bottom: 0.5px solid @LineColor;
+    .ListCellFont {
+        font-size: 13px;
+        color: @CellColor;
+        line-height: 231%;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+
+    .CellTxHash {
+        width: 16%;
+        height: 100%;   
+    }
+
+    .CellHeight {
+        width: 8.5%;
+        height: 100%;
+    }
+    .CellAge {
+        text-align: left;
+        width: 17%;
+        height: 100%;
+    }
+
+    .disableClick {
+        cursor: default;
+    }
+
+    .enableClick {
+        color: @ThemeColor;
+        cursor: pointer;
+    }
+
+    .CellFrom {
+        text-align: left;
+        width: 16%;
+        height: 100%;
+        line-height: 100%;
+        border: none;
+        outline: none;
+        padding: 0;
+        background-color: transparent;
+    }
+    .CellFlow{
+        width: 35px;
+        height: 20px;
+        line-height: 20px;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        color:white;
+        font-size: 10px;
+    }
+    .CellIn {
+        background-color: @InColor;
+    }
+
+    .CellOut {
+        background-color: @OutColor;
+    }
+    .CellTo {
+        text-align: left;
+        width: 16%;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding: 0;
+        background-color: transparent;
+    }
+    .CellValue {
+        width: 8.5%;
+        height: 100%;
+    }
+    .CellTxfee {
+        width: 8%;
+        height: 100%;
+    }
+}

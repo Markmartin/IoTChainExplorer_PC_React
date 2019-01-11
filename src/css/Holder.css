@@ -1,0 +1,104 @@
+.Holder {
+  position: relative;
+  width: 100%;
+  background-color: #f6f6f6;
+}
+.Holder .HolderHeader {
+  position: relative;
+  top: 30px;
+  width: 100%;
+  height: 170px;
+}
+.Holder .HolderHeader .HolderHeaderContainer {
+  position: relative;
+  width: 95%;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 5px 5px #f0f0f0;
+}
+.Holder .HolderHeader .HolderHeaderContainer .HolderHeaderContent {
+  position: relative;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+.Holder .HolderHeader .HolderHeaderContainer .HolderHeaderContent .Title {
+  position: relative;
+  display: block;
+  top: 20px;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 16px;
+  color: #01a1e6;
+  text-align: left;
+  border-bottom: 0.5px solid #ededed;
+}
+.Holder .HolderHeader .HolderHeaderContainer .HolderHeaderContent .TagContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  width: 100%;
+  height: 2rem;
+  text-align: left;
+  color: #afafaf;
+}
+.Holder .HolderHeader .HolderHeaderContainer .HolderHeaderContent .TagContainer .TagTitle {
+  display: inline-block;
+  position: relative;
+  width: 17%;
+  height: 100%;
+  line-height: 2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.Holder .HolderHeader .HolderHeaderContainer .HolderHeaderContent .TagContainer .TagValue {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  line-height: 2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.Holder .HolderContent {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  height: 650px;
+  margin-bottom: 70px;
+}
+.Holder .HolderContent .HolderContentContainer {
+  position: relative;
+  width: 95%;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 5px 5px #f0f0f0;
+}
+.Holder .HolderContent .HolderContentContainer .HolderTransactionList {
+  position: relative;
+  top: 50px;
+  width: 95%;
+  margin: 0 auto;
+}
+.Holder .HolderContent .HolderContentContainer .HolderTransactionList .HolderTransactionTitle {
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  height: 30px;
+  line-height: 167%;
+  font-size: 18px;
+  text-align: left;
+  color: #01a1e6;
+}
+.Holder .HolderContent .PaginationContainer {
+  position: relative;
+  bottom: 60px;
+  width: 95%;
+  margin: 0 auto;
+}

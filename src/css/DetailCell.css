@@ -1,0 +1,34 @@
+.DetailCell {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 33px;
+  border-bottom: 0.5px solid #ededed;
+}
+.DetailCell .DetailCellTag {
+  background-color: #ebf8ff;
+  width: 13%;
+  height: 2rem;
+  line-height: 2rem;
+}
+.DetailCell .DetailValue {
+  width: 87%;
+  height: 2rem;
+  line-height: 2rem;
+}
+.DetailCell .disableClick {
+  color: #afafaf;
+  text-align: left;
+  text-indent: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.DetailCell .enableClick {
+  color: #01a1e6;
+  text-align: left;
+  text-indent: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}

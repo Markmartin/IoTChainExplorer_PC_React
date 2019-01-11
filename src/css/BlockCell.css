@@ -1,0 +1,68 @@
+.BlockListColumn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  background-color: #ebf8ff;
+  border-bottom: 0.5px solid #ededed;
+}
+.BlockListColumn .ListColumnFont {
+  font-size: 13px;
+  color: #727272;
+  line-height: 231%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.BlockListColumn .ColumnHeight {
+  width: 8.5%;
+}
+.BlockListColumn .ColumnAge {
+  text-align: left;
+  width: 20%;
+}
+.BlockListColumn .ColumnTxn {
+  width: 5%;
+}
+.BlockListColumn .ColumnBlockHash {
+  width: 35%;
+}
+.BlockListColumn .ColumnGasUsed {
+  width: 12%;
+}
+.BlockCell {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  border-bottom: 0.5px solid #ededed;
+}
+.BlockCell .ListCellFont {
+  font-size: 13px;
+  line-height: 231%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.BlockCell .disableClick {
+  color: #afafaf;
+  cursor: default;
+}
+.BlockCell .enableClick {
+  color: #01a1e6;
+  cursor: pointer;
+}
+.BlockCell .CellHeight {
+  width: 8.5%;
+}
+.BlockCell .CellAge {
+  text-align: left;
+  width: 20%;
+}
+.BlockCell .CellTxn {
+  width: 5%;
+}
+.BlockCell .CellBlockHash {
+  width: 35%;
+}
+.BlockCell .CellGasUsed {
+  width: 12%;
+}

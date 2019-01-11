@@ -1,0 +1,57 @@
+.searchFrame {
+    position: relative;
+    width: 95%;
+    height: 40px;
+    margin: 0 auto 0;
+    max-width: 400px;
+    background-color: white;
+    border:2px solid transparent;
+    border-radius: 22.5px;
+
+
+    @media screen and (min-width:768px) {
+        .SearchInput {
+            position: relative;
+            left: -10px;
+            width: 85%;
+            height: 40px;
+            line-height: 40px;
+            padding: 0;
+            margin: -2px 0 0 0;
+            outline: none;
+            border: none;
+            columns: #aaa;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .SearchInput {
+            position: relative;
+            left: -10px;
+            width: 68%;
+            height: 38px;
+            line-height: 40px;
+            padding: 0;
+            margin: -1px 0 0 0;
+            outline: none;
+            border: none;
+            columns: #aaa;
+        }
+    }
+
+    
+
+    .SearchButton {
+        position: absolute;
+        right: 5px;
+        width: 30px;
+        height: 30px;
+        margin: 2px 0 0 0;
+        padding: 0;
+        border: none;
+        background: url('../asset/search.png') no-repeat;
+        background-size: 100% 100%;   
+        cursor: pointer;
+        outline: none;
+    }
+}

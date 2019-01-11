@@ -1,0 +1,87 @@
+@import './color.less';
+.TransactionListColumn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    background-color: @HeaderColumnColor;
+    border-bottom: 0.5px solid @LineColor;
+    .ListColumnFont {
+        font-size: 13px;
+        color: @ColumnColor;
+        line-height: 231%;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+    .ColumnTxHash {
+        width: 15%;
+        text-align: left;
+    }
+    .ColumnHeight {
+        width: 8.5%;
+    }
+    .ColumnAge {
+        text-align: left;
+        width: 20%;
+    }
+    .ColumnFrom {
+        text-align: left;
+        width: 15%;
+    }
+    .ColumnTo {
+        text-align: left;
+        width: 15%;
+    }
+    .ColumnValue {
+        width: 8.5%;
+    }
+    .ColumnTxfee {
+        width: 8%;
+    }
+}
+
+.TransactionCell {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    border-bottom: 0.5px solid @LineColor;
+    .ListCellFont {
+        font-size: 13px;
+        color: @CellColor;
+        line-height: 231%;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+
+    .CellTxHash {
+        width: 15%;
+        color: @ThemeColor;
+        cursor: pointer;
+    }
+    .CellHeight {
+        width: 8.5%;
+    }
+    .CellAge {
+        text-align: left;
+       width: 20%;
+    }
+    .CellFrom {
+        text-align: left;
+        width: 15%;
+        color: @ThemeColor;
+        cursor: pointer;
+    }
+    .CellTo {
+        text-align: left;
+        width: 15%;
+        color: @ThemeColor;
+        cursor: pointer;
+    }
+    .CellValue {
+        width: 8.5%;
+    }
+    .CellTxfee {
+        width: 8%;
+    }
+}
