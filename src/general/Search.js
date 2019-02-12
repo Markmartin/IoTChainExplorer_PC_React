@@ -12,28 +12,33 @@ class SearchView extends React.Component {
         this.searchRef = React.createRef()
     }
     searchClick(searchStr) {
-        if (searchStr.length !== 42 && searchStr.length !== 66 && searchStr.substr(0, 2) !== '0x' && !Number.isInteger(parseInt(searchStr))) {
-            //格式不合规
-            message.error('查询地址不符合规范');
-        }
+        // if (searchStr.length !== 42 && searchStr.length !== 66 && searchStr.substr(0, 2) !== '0x' && !Number.isInteger(parseInt(searchStr))) {
+        //     //格式不合规
+        //     message.error('查询地址不符合规范');
+        // }
+        this.setState({
+            inputValue: ''
+        })
 
         if (searchStr.length === 42) {
             //跳到用户页面
             this.props.history.push('/holder/' + searchStr)
+            return;
         }
 
         if (searchStr.length === 66) {
             //跳到交易详情页面
             this.props.history.push('/transaction/' + searchStr)
+            return;
         }
 
-        if (Number.isInteger(parseInt(searchStr))) {
+        if ((/(^[1-9]\d*$)/.test(searchStr))) {
             this.props.history.push('/block/' + searchStr)
+            return;
         }
 
-        this.setState({
-            inputValue: ''
-        })
+        message.error('Query condition non-conform to the regulations');
+        return;
     }
 
     changeValue(e) {

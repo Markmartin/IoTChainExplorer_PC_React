@@ -110,7 +110,7 @@ class FooterView extends React.Component {
                         </div>
 
                         <div className="FooterLinkIconBox MarginTop10">
-                            <a className="ImgA" href="https://github.com/IoTChainCode" target="_blank" rel="nofollow me noopener noreferrer">
+                            <a className="ImgA" href="https://github.com/c-block" target="_blank" rel="nofollow me noopener noreferrer">
                                 <img className="ImgAIcon" src={ll7} alt="" />
                             </a>
                             <a className="ImgA" href="mailto:support@iotchain.io" target="_blank" rel="nofollow me noopener noreferrer">

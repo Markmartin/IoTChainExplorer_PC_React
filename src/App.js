@@ -14,7 +14,7 @@ import BlockDetail from './block/BlockDetail'
 class App extends Component {
   render() {
     return (
-      <Router basename="/explorer">
+      <Router basename="explorer">
         <div className="App">
           <Switch>
             <Route path="/" exact component={Home} />

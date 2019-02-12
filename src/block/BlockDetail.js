@@ -40,7 +40,7 @@ class BlockDetailView extends React.Component {
                             <DetailCell payload={{ tag: 'hash', value: block.hash }} />
                             <DetailCell
                                 payload={{ tag: 'Parent Hash', value: block.parentHash }}
-                                clickEvent={() => this.jumpToBlockDetail(block.parentHash)}
+                            // clickEvent={() => this.jumpToBlockDetail(block.parentHash)}
                             />
                             <DetailCell payload={{ tag: 'Difficulty', value: block.difficulty }} />
                             <DetailCell payload={{ tag: 'gasUsed', value: block.gasUsed }} />

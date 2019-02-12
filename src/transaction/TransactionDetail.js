@@ -1,6 +1,5 @@
 import React from 'react'
 import httpManager from '../http/httpManager'
-import moment from 'moment';
 import { message } from 'antd';
 
 import Loading from '../general/Loading'
